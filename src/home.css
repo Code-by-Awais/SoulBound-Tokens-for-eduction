@@ -17,6 +17,7 @@
     font-size: 12px;
     font-weight: 700;
     padding-top: 4%;
+    padding-bottom: 2%;
     height: 40px;
     margin-bottom: 18px;
     background-color: #907AD6;
@@ -27,10 +28,56 @@
     margin-left: auto;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.generateHolders{
+    display: flex;
+    gap:12px;
+}
+.generateBtn{
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #282829;
+    color: white;
+}
+.searchField{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 13px;
+    color: black;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.sidemenuSelected{
+    color:white;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    height: 40px;
+    margin-bottom: 18px;
+    background-color: #3e3e41;
+    display: flex;
+    border-radius: 12px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
 }
 .mainDisplayerScreenDiv{
     background-color: #4F518C;
     min-height: 100vh;
     height: auto;
     width: 75%;
+    padding: 80px;
+    color: white;
 }
